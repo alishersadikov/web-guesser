@@ -1,5 +1,7 @@
 require 'sinatra'
+require 'sinatra/reloader'
 
+number = rand(100)
 get '/' do
-  "Hello, Dilfuza!"
+  "The SECRET NUMBER  is #{number}"
 end
